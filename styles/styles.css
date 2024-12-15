@@ -28,36 +28,80 @@ body{
 .second{
     display:flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
 
 }
 
-h1{
+.second h1{
     font-size: 22px;;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
-p{
+.second p{
     font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     width: 90%;
     text-align: center;
+    margin: 8px auto;
+}
+
+.third{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 #women{
     width:90%;
-    border-radius: 15px;;
+    border-radius: 15px;
 }
 
-h4{
-    width: 70%;
+.third h4{
+    width: 88%;
+    text-align: center;
     margin-bottom: 0;
+    font-size: 18px;
 }
 
 #information{
     text-align:justify;
+    font-family: 'DM Sans', sans-serif;
     margin-top: 8px;
+    width:80%;
+    font-size: 16px;
+}
+
+.enlace{
+    display:flex;
+    background-color: rgb(38, 38, 85);
+    color:white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 54%;
+    margin-left: 0;
+    justify-content:flex-start;
+}
+
+.enlace p{
+    width:80%;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
+
+#arrow-container{
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 20%;
 }
 
 #arrow{
-    width:10px;
+    width:12px;
 }
