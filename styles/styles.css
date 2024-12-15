@@ -16,7 +16,7 @@ body{
 
 }
 
-.first div{
+.first nav{
     display:none;
 }
 
@@ -46,6 +46,10 @@ body{
     width: 90%;
     text-align: center;
     margin: 8px auto;
+}
+
+.testimony{
+    display:none;
 }
 
 .third{
@@ -127,4 +131,71 @@ body{
     .enlace p{
         font-size: 14px;
     }
+}
+
+@media screen and (min-width: 768px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+        gap: 20px; /* Espacio entre las columnas */
+    }
+
+    .first nav{
+        display:block
+    }
+
+    .first {
+        grid-column: span 2; /* El primer elemento (encabezado) ocupa toda la fila */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #logo{
+        width: 300px;
+        margin: 0;
+        margin-left: 10%;
+    }
+
+    .nav-links{
+        display:flex;
+        gap:12px;
+    }
+
+    .menu{
+        margin-right: 10%;
+    }
+
+    .second {
+        display:block;
+        grid-column: span 2; /* El contenido principal ocupa toda la fila en pantallas grandes */
+        text-align: center;
+        width: 100%;
+    }
+
+    .testimony{
+        display:block;
+    }
+
+    .third {
+        grid-column: span 2; /* La tercera sección ocupa toda la fila */
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Dividir la tercera sección en 2 columnas */
+        gap: 20px;
+        width: 100%;
+    }
+
+    .third h4 {
+        text-align: left; /* Alinear el texto a la izquierda en pantallas grandes */
+    }
+
+    .enlace {
+        text-align: left; /* Alinear el enlace a la izquierda */
+    }
+
+    #women {
+        width: 100%;
+        border-radius: 10px;
+    }
+
 }
