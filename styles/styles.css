@@ -1,0 +1,63 @@
+body{
+    font-family: "Poppins", sans-serif ;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.first{
+    display:flex;
+    width: 100%;
+
+}
+
+.first div{
+    display:none;
+}
+
+#logo{
+    width: 60%;
+    margin: 20px auto;
+}
+
+.second{
+    display:flex;
+    flex-direction: column;
+
+}
+
+h1{
+    font-size: 22px;;
+    margin-bottom: 0;
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
+}
+
+#women{
+    width:90%;
+    border-radius: 15px;;
+}
+
+h4{
+    width: 70%;
+    margin-bottom: 0;
+}
+
+#information{
+    text-align:justify;
+    margin-top: 8px;
+}
+
+#arrow{
+    width:10px;
+}
