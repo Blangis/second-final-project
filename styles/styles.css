@@ -138,6 +138,7 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
         gap: 20px; /* Espacio entre las columnas */
+        align-content: start;
     }
 
     .first nav{
@@ -168,25 +169,45 @@ body{
 
     .second {
         display:block;
-        grid-column: span 2; /* El contenido principal ocupa toda la fila en pantallas grandes */
+        grid-column: 1;
         text-align: center;
-        width: 100%;
+        height: 100vh;
+        margin-top: 50px;
     }
 
     .testimony{
         display:block;
+        background-color: rgb(85, 54, 244);
+        padding: 2%;
+        border-radius: 10px 0 0 10px;
+        margin-top: 30px;
+
+    }
+
+    .testimony p{
+        font-weight: 700;
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        width: 80%;
+        text-align:center;
     }
 
     .third {
-        grid-column: span 2; /* La tercera sección ocupa toda la fila */
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* Dividir la tercera sección en 2 columnas */
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
         gap: 20px;
-        width: 100%;
+        height:100vh;
+        margin-top: 30px;
     }
 
     .third h4 {
-        text-align: left; /* Alinear el texto a la izquierda en pantallas grandes */
+        text-align: left; 
+        width: 70%;
+    }
+
+    #information{
+        width:70%;
     }
 
     .enlace {
@@ -194,7 +215,7 @@ body{
     }
 
     #women {
-        width: 100%;
+        width: 70%;
         border-radius: 10px;
     }
 
