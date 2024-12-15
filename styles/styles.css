@@ -105,3 +105,26 @@ body{
 #arrow{
     width:12px;
 }
+
+@media screen and (min-width: 480px){
+    .second{
+        display:none;
+    }
+
+    .third{
+        margin-top: 10px;
+    }
+
+    .third h4{
+        text-align:start;
+        width: 86%;
+    }
+
+    #information{
+        width:85%;
+    }
+
+    .enlace p{
+        font-size: 14px;
+    }
+}
