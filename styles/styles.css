@@ -35,7 +35,7 @@ body{
 }
 
 .second h1{
-    font-size: 22px;;
+    font-size: 22px;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -150,6 +150,7 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-top: 20px;;
     }
 
     #logo{
@@ -175,21 +176,29 @@ body{
         margin-top: 50px;
     }
 
+    .second h1{
+        font-size: 30px;
+    }
+
+    .second p{
+        width: 80%;
+    }
+
     .testimony{
         display:block;
         background-color: rgb(85, 54, 244);
         padding: 2%;
+        width:80%;
         border-radius: 10px 0 0 10px;
         margin-top: 30px;
+        margin-left: 10%;
 
     }
 
-    .testimony p{
-        font-weight: 700;
+    .testimony h3{
         color: white;
         font-family: 'DM Sans', sans-serif;
-        width: 80%;
-        text-align:center;
+        text-align: center;
     }
 
     .third {
